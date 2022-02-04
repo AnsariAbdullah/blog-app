@@ -31,7 +31,7 @@ const data = [
 
 
 	{
-		id: 1,
+		id: 3,
 		title: 'The bragger',
 		author: 'Jane Doe',
 		date: '12/02/2022',
@@ -45,7 +45,7 @@ const data = [
 		]
 	},
 	{
-		id: 2,
+		id: 4,
 		title: 'Sherlock Holmes',
 		author: 'Jane Doe',
 		date: '12/02/2022',
@@ -59,7 +59,7 @@ const data = [
 		]
 	},
 	{
-		id: 1,
+		id: 5,
 		title: 'The bragger',
 		author: 'Jane Doe',
 		date: '12/02/2022',
@@ -73,7 +73,7 @@ const data = [
 		]
 	},
 	{
-		id: 2,
+		id: 6,
 		title: 'Sherlock Holmes',
 		author: 'Jane Doe',
 		date: '12/02/2022',
