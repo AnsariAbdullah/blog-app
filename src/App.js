@@ -77,6 +77,8 @@ const App = () => {
 						</div>
 					)}
 				</PostsWrapper>
+
+				{/* make a modal below and pass data to it as props */}
 			</Container>
 		</>
 	);
