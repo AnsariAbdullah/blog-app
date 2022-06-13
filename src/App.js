@@ -79,6 +79,9 @@ const App = () => {
 				</PostsWrapper>
 
 				{/* make a modal below and pass data to it as props */}
+				{/* 
+					use a custom built modal and pass data as props based on click
+				 */}
 			</Container>
 		</>
 	);
