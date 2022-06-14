@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Container } from './styles/varibales';
 import { colors } from './styles/varibales';
 import data from './assets/data';
+import Modal from './components/modal';
 
 const AppHeading = styled.p`
 	font-size: 32px;
@@ -79,9 +80,9 @@ const App = () => {
 				</PostsWrapper>
 
 				{/* make a modal below and pass data to it as props */}
-				{/* 
-					use a custom built modal and pass data as props based on click
-				 */}
+				{/* use a custom built modal and pass data as props based on click */}
+				<Modal />
+
 			</Container>
 		</>
 	);
