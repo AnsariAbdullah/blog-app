@@ -1,6 +1,5 @@
 import React from 'react';
-import styledComponents from 'styled-components';
-import { styled } from 'styletron-react';
+import styled from 'styled-components';
 
 const ModalWrapper = styled.div`
 `
