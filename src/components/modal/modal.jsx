@@ -2,12 +2,22 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ModalWrapper = styled.div`
+	width: 100%;
+	height: 100%;
+	position: relative;
+	.close{
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
 `
+
+// check how to update state of parent from child and impliment it in close button
 
 const Modal = (props) => {
 	return (
 		<ModalWrapper>
-			This is a modal
+			<button onClick={()=> console.log('Close clicked')} className='close'>x</button>
 		</ModalWrapper>
 	);
 }
