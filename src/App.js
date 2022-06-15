@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import { Container } from './styles/varibales';
 import { colors } from './styles/varibales';
@@ -56,6 +56,13 @@ const PostsWrapper = styled.div`
 `
 
 const App = () => {
+	const [showModal, setShowModal] = useState(false)
+
+
+	const toggleModal = () => {
+		setShowModal(true)
+	}
+
 	return (
 		<>
 			<AppHeading>True Blog</AppHeading>
@@ -78,10 +85,12 @@ const App = () => {
 						</div>
 					)}
 				</PostsWrapper>
-
+				<button onClick={toggleModal}>show modal</button>
 				{/* make a modal below and pass data to it as props */}
 				{/* use a custom built modal and pass data as props based on click */}
-				<Modal />
+				{ showModal &&
+					<Modal />
+				}
 
 			</Container>
 		</>
