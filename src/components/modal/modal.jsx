@@ -5,6 +5,10 @@ const ModalWrapper = styled.div`
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: white;;
 	.close{
 		position: absolute;
 		top: 5px;
