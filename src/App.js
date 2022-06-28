@@ -56,11 +56,15 @@ const PostsWrapper = styled.div`
 `
 
 const App = () => {
-	const [showModal, setShowModal] = useState(false)
+	const [toggleModal, setToggleModal] = useState(false)
 
 
-	const toggleModal = () => {
-		setShowModal(true)
+	const showModal = () => {
+		setToggleModal(true)
+	}
+
+	const closeModal = () => {
+		setToggleModal(false)
 	}
 
 	return (
@@ -85,11 +89,13 @@ const App = () => {
 						</div>
 					)}
 				</PostsWrapper>
-				<button onClick={toggleModal}>show modal</button>
+				<button onClick={showModal}>show modal</button>
 				{/* make a modal below and pass data to it as props */}
 				{/* use a custom built modal and pass data as props based on click */}
-				{ showModal &&
-					<Modal />
+				{ toggleModal &&
+					<Modal
+						closeModal={closeModal}
+					/>
 				}
 
 			</Container>

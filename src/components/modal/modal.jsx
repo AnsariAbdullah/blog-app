@@ -18,10 +18,10 @@ const ModalWrapper = styled.div`
 
 // check how to update state of parent from child and impliment it in close button
 
-const Modal = (props) => {
+const Modal = ({closeModal}) => {
 	return (
 		<ModalWrapper>
-			<button onClick={()=> console.log('Close clicked')} className='close'>x</button>
+			<button onClick={closeModal} className='close'>x</button>
 		</ModalWrapper>
 	);
 }
