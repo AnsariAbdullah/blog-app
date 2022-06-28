@@ -16,8 +16,6 @@ const ModalWrapper = styled.div`
 	}
 `
 
-// check how to update state of parent from child and impliment it in close button
-
 const Modal = ({closeModal}) => {
 	return (
 		<ModalWrapper>

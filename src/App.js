@@ -90,8 +90,6 @@ const App = () => {
 					)}
 				</PostsWrapper>
 				<button onClick={showModal}>show modal</button>
-				{/* make a modal below and pass data to it as props */}
-				{/* use a custom built modal and pass data as props based on click */}
 				{ toggleModal &&
 					<Modal
 						closeModal={closeModal}
