@@ -12,4 +12,5 @@ DYNAMIC ROUTES - You can use dynamic routes from react router. Just heard from J
 
 ## Other
 - The design seems a bit off you can start with a fresh design and ditch base design (learning all designs is not so important I think)
-- 
+- Check insta MD for boiler plate code.
+- Add series option. i.e. In the footer of the blog the writer can link other blogs/poems thus showing a continuation series.
